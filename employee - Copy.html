@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+p.italic {
+  font-style: italic;
+}
+</style>
+	<td>
+<tr>
+<body style="background-color:powderblue;">
+        <title> Our HTML Lesson </title>
+    </head>
+    <body>
+<h1> Espire Infolabs Pvt. Ltd </h1> <br>
+<p class="italic">EMPLOYEE REGISTRATION FORM.</p>
+    </body> </tr>
+</td>
+ 
+<br>  
+ <td>
+<tr>
+<form>  
+  
+<label> Firstname </label>         
+  
+<input type="text" maxlength="10" name="first_name" pattern="[A-Za-z]" value="" required> <br> <br>
+<label> Middlename: </label>     
+<input type="text" maxlength="10" name="middle_name" pattern="[A-Za-z]" value="" required>  <br><br>
+<label> Lastname: </label>         
+<input type="text" maxlength="10" name="last_name" pattern="[A-Za-z]" value="" required> <br> <br>  
+</tr>
+</td>  
+<label>   
+Course :  
+</label>   
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>  
+
+<label>   
+Stream :  
+</label>   
+<select>  
+<option value="Stream">Stream</option>  
+<option value="CSE">CSE</option>  
+<option value="ISE">ISE</option>  
+<option value="IT">IT</option>  
+
+</select>  
+  
+<br>  
+<br>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>  
+  
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" maxlength="10" name="phone" size="10"/> <br> <br>  
+Address  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+<br> <br>  
+<form action="/action_page.php">
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+  
+</form>
+<br>
+
+<form action="/action_page.php">
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+  
+</form> 
+Re-type password:  
+<input type="Password" id="repass" name="repass"> <br> <br> 
+<script>
+function Submit()
+            {
+              alert('Submitted Succesfully');
+            }
+
+function Clearall()
+            {
+              alert('Do you want clear all?');
+            } 
+</script>
+<input type="button" id="btnClearall" name="btnClearall" value="Clear all" onclick="Clearall()" />
+<input type="button" id="btnSubmit" name="btnSubmit" value="Submit" onclick="Submit()" />  
+</form>
+  
+<div>
+<p class="italic">For more imfomation visit our website.</p>
+<a href="https://www.espire.com/" > Espire </a><br>
+		<a href=https://in.linkedin.com/company/espire-infolabs/" > Espire Infolabs | LinkedIn </a>
+            </div>
+<p>Similer Results</p>
+<img src="./images/employee5.jfif"  width="500" height="300" >  </img> <a href="https://www.bing.com/search?q=infosys&form=ANNTH1&refig=aef7e10855b540908c9b6b606ddc90b3&sp=1&qs=HS&pq=info&sk=PRES1&sc=10-4&cvid=aef7e10855b540908c9b6b606ddc90b3" > Infosys </a><br>
+<img src="./images/employee7.jfif"  width="500" height="300" >  </img><a href="https://www.wipro.com/en-IN/" > Wipro </a><br>
+</body>  
+</html>
